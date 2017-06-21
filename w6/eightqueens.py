@@ -1,5 +1,3 @@
-
-
 def init_board(n=4):
     board = {}
     # position of the queen
@@ -88,5 +86,5 @@ n = 8
 b = init_board(n)
 possible_config = []
 placequeen(b)
-
-[print(i) for i in possible_config]
+print(possible_config[0])
+# [print(i) for i in possible_config]
